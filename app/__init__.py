@@ -39,7 +39,7 @@ app.register_blueprint(product_routes, url_prefix='/api/products')
 app.register_blueprint(review_routes, url_prefix='/api')
 
 db.init_app(app)
-Migrate(app, db)
+migrate = Migrate(app, db)
 
 # Application Security
 CORS(app)
