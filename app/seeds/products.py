@@ -11,7 +11,7 @@ def seed_products():
     product_two = Product(
         owner_id=2, price=30, name='The Dark Knight Returns',
         description='A gritty Batman story from Frank Miller that redefined the character.',
-        cateogry=2)
+        category=2)
     product_three = Product(
         owner_id=1, price=40, name='X-Men #1', 
         description='The first issue of X-Men, featuring the original team of mutants created by Stan Lee and Jack Kirby.',
